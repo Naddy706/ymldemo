@@ -39,7 +39,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         run: echo running on build 2 build is a id 
-      - uses: actions/checkout@v3
-        run: |
-        mkdir newFile
-        ls
+        
