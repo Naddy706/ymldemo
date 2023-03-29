@@ -32,13 +32,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-jobs:
-  build2: 
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-        run: echo running on build 2 build is a id 
-        
