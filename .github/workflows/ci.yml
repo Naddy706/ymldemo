@@ -8,8 +8,8 @@ name: run CI in 5 mint
 #     branches:
 #       - 'main'
 on:
-  schedule:
-  - cron: '*/5 * * * *'
+#  schedule:
+#  - cron: '*/5 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
